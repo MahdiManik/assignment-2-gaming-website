@@ -86,7 +86,7 @@ nav {
     border-radius: 8px;
     background: rgba(11, 2, 35, 0.10);
     padding: 10px 20px;
-    
+
 }
 
 
@@ -247,7 +247,61 @@ nav {
 
 
 /* online games styles starts here */
-.online-games-image img{
+
+.online-games-image {
+    position: relative;
+    display: inline-block;
+    margin: 40px 20px;
+    border-radius: 16px; 
+
+}
+
+.image-hover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.online-games-image:hover .image-hover {
+    opacity: 1;
+    border-radius: 16px; 
+}
+
+.watch-now {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #FF42A5;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.play-icon {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #FF42A5;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+
+}
+
+.online-games {
+    max-width: 1200px;
+    margin: 100px auto;
+    text-align: center;
+}
+
+.online-games-image img {
     width: 250px;
 }
 

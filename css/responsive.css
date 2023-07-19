@@ -29,6 +29,7 @@
     .banner-container {
         flex-direction: column-reverse;
     }
+
     .banner-container {
         flex-direction: column-reverse;
         gap: 40px;
@@ -40,11 +41,57 @@
     .banner-title {
         font-size: 60px;
     }
+
     .banner-play {
         font-size: 25px;
     }
+
     .banner-about {
         font-size: 15px;
+    }
+
+    .icon-box-image {
+        padding: 20px 20px;
+    }
+
+    .icon-box-image img {
+        width: 40px;
+    }
+
+    .icon-title {
+        font-size: 15px
+    }
+        
+        .icon-box-image {
+            padding: 20px 20px;
+        }
+
+        .icon-box-image img {
+            width: 40px;
+        }
+
+
+        .icon-box {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+        }
+
+    .icon-box {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .footer-about {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        font-size: 15px;
+        font-weight: 600;
+        padding: 30px;
+        gap: 40px;
+    }
+    .footer-our-condition{
+        display: grid;
+        grid-template-columns: repeat(2, 2fr);
     }
 
 }
@@ -115,7 +162,8 @@
     }
 
 
-    .btn-primary, .btn-secondary {
+    .btn-primary,
+    .btn-secondary {
         padding: 10px 20px;
         border: 0;
         border-radius: 24px;
@@ -126,23 +174,55 @@
         font-weight: 400;
         text-transform: uppercase;
     }
-    .btn > .btn-secondary{
+
+    .btn>.btn-secondary {
         background: #4EC5F7;
     }
-    
 
-    .play-games{
+
+    .play-games {
         flex-direction: column-reverse;
         text-align: center;
     }
-    .section-title{
+
+    .section-title {
         font-size: 25px;
         padding: 20px;
     }
-    .section-description{
+
+    .section-description {
         font-size: 15px;
         padding: 20px;
     }
 
+    .icon-box-image {
+        padding: 20px 20px;
+    }
 
+    .icon-box-image img {
+        width: 30px;
+    }
+
+    .icon-title {
+        font-size: 10px;
+    }
+
+    .icon-box {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .footer-about {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        font-size: 15px;
+        font-weight: 600;
+        padding: 30px;
+        gap: 40px;
+    }
+    .footer-our-condition{
+        display: grid;
+        grid-template-columns: repeat(2, 2fr);
+    }
+    
 }

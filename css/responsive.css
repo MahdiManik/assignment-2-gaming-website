@@ -1,3 +1,6 @@
+
+/* tablet device for responsive styles starts here */
+
 @media screen and (min-width: 577px) and (max-width: 992px) {
 
     .nav-container,
@@ -95,7 +98,13 @@
     }
 
 }
+/* tablet device for responsive styles ends here */
 
+
+
+
+
+/* small device for responsive styles starts here */
 
 
 @media screen and (max-width: 576px) {
@@ -226,3 +235,4 @@
     }
     
 }
+/* small device for responsive styles ends here */

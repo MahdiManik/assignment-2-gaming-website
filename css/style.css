@@ -33,9 +33,10 @@ nav {
 }
 
 .nav-container {
-    min-height: 80px;
+    min-height: 50px;
     display: flex;
     align-items: center;
+    justify-content: center;
     max-width: 1200px;
     margin: 0 auto;
 }
@@ -88,7 +89,10 @@ nav {
     padding: 10px 20px;
 
 }
-
+.fa-brands{
+    padding: 0px;
+    margin: 0px;
+}
 
 /* nav-bar styles ends here */
 

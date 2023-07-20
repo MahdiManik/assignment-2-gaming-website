@@ -96,9 +96,15 @@
         display: grid;
         grid-template-columns: repeat(2, 2fr);
     }
+    .online-games-container{
+       flex-direction: column;
+    }
 
 }
 /* tablet device for responsive styles ends here */
+
+
+
 
 
 
@@ -109,7 +115,10 @@
 
 @media screen and (max-width: 576px) {
 
-    .nav-container,
+    nav{
+        padding-bottom: 15px;
+    }
+    .nav-container, .online-games-container,
     .menu-content {
         flex-direction: column;
         justify-content: center;
